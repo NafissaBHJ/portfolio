@@ -1,0 +1,173 @@
+
+html,body{
+    background-color: #1E1E1E;
+    height: 100%;
+    overflow: scroll;
+    font-family: "Sudo";
+    font-weight: 100;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.wrapper {
+    margin: auto;
+    max-width: 600px;
+   
+    padding: 5vw;
+    height: 100%;
+    
+    color: white;   
+
+}
+.leftSide {
+    height: max-content;
+   
+}
+h1{
+    color: #f0b699; 
+}
+span{
+    color:gray
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.description,.experience,.experiment,.socials,.note{
+    grid-row-start: 1;
+    grid-column-end: 1;
+    text-align: left;
+    
+   
+}
+
+
+.image{
+    height: 100%;
+
+}
+.portrait {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    width: 175px;
+    float: right;
+   
+}
+a:visited {
+color: rgb(0, 34, 255);
+background-color: transparent;
+text-decoration: none;
+}
+h4{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(70, end),
+        blink-caret .75s step-end infinite;
+    color: #f0b699;    
+     
+    
+}
+ul {
+    margin-left: 0em;
+}
+h3,h5{
+    margin-top: 1em;
+    margin-bottom: 1px;
+    color:#4D86CC ; 
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+li {
+   
+    margin-left: 0em;
+    font-size: 1rem;
+    line-height: 1.5em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+        typing 3.5s steps(70, end),
+        blink-caret .75s step-end infinite;
+}
+@font-face {
+    font-family: 'Sudo';
+    src: url('../portfolio/font/Sudo-Regular.ttf') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Sudo';
+    src: url('../portfolio/font/Sudo-Medium.ttf');
+    font-weight:300;
+}
+
+
+p{
+    font-size: 1.1rem;
+    line-height: 1.5em;  
+    font-family: "Sudo";
+   
+}
+h2{  font-family: "Sudo"; font-weight: 300;}
+.noStyle{
+    list-style: none;
+    margin-left: 0.2em;
+}
+.name {
+   
+    color: #a186ff;
+    
+}
+.name2 {
+   
+   color: #80b2f7;
+   
+}
+
+.title {
+    color:#ffd18d; 
+}
+.comment {
+    color:#b386ce;
+}
+.text {
+    color:#fcb4b4 ;
+    margin: 0;
+}
+.title2 {
+    color: #f0b699;    
+}
+.ponctuation {
+    color:#ffd18d; 
+}
+
+.typewriter h2 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    letter-spacing: .1em; /* Adjust as needed */
+    animation: 
+        typing 3.5s steps(70, end),
+        blink-caret .75s step-end infinite;
+}
+
+    /* The typing effect */
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 65% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    20% { border-color: orange; }
+    }
+@keyframes appear-wrapper { 0% {opacity: 0;} 40% {opacity: 1;} }
