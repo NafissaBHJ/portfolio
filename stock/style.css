@@ -1,13 +1,51 @@
-.loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
+
+body {
+  inset: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+#loading {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+#loading img {
+  animation: 1s ease-in-out 0s infinite alternate breathe;
+  opacity: .66;
+  transition: opacity .4s;
+}
+
+#loading.main_done img {
+  opacity: 1;
+}
+
+#loading.init_done img {
+  animation: .33s ease-in-out 0s 1 forwards zooooom;
+  opacity: .05;
+}
+
+@keyframes breathe {
+  from {
+    transform: scale(1)
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+
+  to {
+    transform: scale(0.95)
   }
+}
+
+@keyframes zooooom {
+  from {
+    transform: scale(1)
+  }
+
+  to {
+    transform: scale(10)
+  }
+}
