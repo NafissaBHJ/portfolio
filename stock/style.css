@@ -4,16 +4,10 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  position: fixed;
+  
 }
 
-#loading {
-  align-items: center;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  width: 100%;
-}
+
 div.global {
   position:absolute;
   max-width:100%;
