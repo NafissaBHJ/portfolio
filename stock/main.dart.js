@@ -47843,7 +47843,7 @@ A.Wu.prototype={
 $0(){return A.x(t.n,t.yu)},
 $S:292}
 A.y9.prototype={
-R(a){return new A.pv(B.x7,"Flutter Demo",A.a4L(null,null),null)}}
+R(a){return new A.pv(B.x7,"SLP",A.a4L(null,null),null)}}
 A.oV.prototype={
 aL(){return new A.D1(B.m)}}
 A.D1.prototype={
