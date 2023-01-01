@@ -54710,7 +54710,7 @@ A.a_R.prototype={
 $0(){return A.y(t.n,t.Bv)},
 $S:331}
 A.AZ.prototype={
-P(a){return new A.rs(B.yw,"Flutter App",A.a9F(null,null),null)}}
+P(a){return new A.rs(B.yw,"Flutter Demo",A.a9F(null,null),null)}}
 A.qQ.prototype={
 am(){return new A.G2(B.l)}}
 A.G2.prototype={
@@ -56748,7 +56748,7 @@ B.uy=new A.b1(96,96,96,96)
 B.jK=new A.b1(1/0,1/0,1/0,1/0)
 B.uz=new A.b1(0,1/0,48,48)
 B.bI=new A.b1(0,1/0,0,1/0)
-B.uA=new A.pG(2,"contain")
+B.uA=new A.pG(1,"contain")
 B.uB=new A.pG(6,"scaleDown")
 B.jL=new A.pH(0,"tight")
 B.jM=new A.pH(5,"strut")
