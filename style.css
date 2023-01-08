@@ -6,6 +6,7 @@ html,body{
     font-family: "Sudo";
     font-weight: 100;
 cursor: pointer;
+
 }
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
