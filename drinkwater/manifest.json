@@ -1,11 +1,11 @@
 {
-    "name": "drink water UI",
-    "short_name": "drink water UI",
+    "name": "Drink water UI",
+    "short_name": "DW UI",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "An app UI.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

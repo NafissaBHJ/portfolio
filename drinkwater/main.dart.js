@@ -23016,7 +23016,7 @@ s.gpn().textContent=q
 r=self.document.body
 r.toString
 r.append(s.gpn())
-s.a=A.c_(B.xS,new A.Iq(s))}}}
+s.a=A.c_(B.xT,new A.Iq(s))}}}
 A.Ip.prototype={
 $0(){var s=this.a.a
 if(s!=null)s.b2(0)},
@@ -31182,7 +31182,7 @@ var s=A.dh(null,B.ee,null,null,this)
 s.kL(0,0)
 this.d=s},
 I(a){var s,r,q,p=null
-if(a.X(t.w).f.a.a>=890){s=A.a2m("Drink your water",A.aM(a).RG.b)
+if(a.X(t.w).f.a.a<650){s=A.a2m("Drink your water",A.aM(a).RG.b)
 r=A.ic(p,p,A.aM(a).ay.f,p,1,p,p,p)
 q=1
 q=new A.o1(s,new A.zA(r,B.DT,p),0,new A.F6(p,1,1/0,56+q),p)
@@ -31206,7 +31206,7 @@ return new A.eO(B.xX,A.JN(A.a([A.ic(r,new A.Bk(new A.Ja(s),r,r,r,r,B.C,r,!1,r,A.
 A.Ja.prototype={
 $0(){var s=this.a
 s.c.kL(0,0)
-A.MX(B.xT,new A.J9(s),t.H)},
+A.MX(B.xN,new A.J9(s),t.H)},
 $S:0}
 A.J9.prototype={
 $0(){var s=this.a.e,r=s.b
@@ -32367,7 +32367,7 @@ JK(){if(this.b<=0)this.gxK().fD(0)},
 gxK(){var s=this,r=s.ok$
 if(r===$){$.Ia()
 r!==$&&A.b8()
-r=s.ok$=new A.Zc(A.x(t.S,t.d0),B.v,new A.rb(),B.v,B.v,s.gJy(),s.gJJ(),B.xO)}return r},
+r=s.ok$=new A.Zc(A.x(t.S,t.d0),B.v,new A.rb(),B.v,B.v,s.gJy(),s.gJJ(),B.xP)}return r},
 $iaf:1}
 A.N5.prototype={
 $0(){var s=null
@@ -33083,7 +33083,7 @@ r=a.gbg()
 q=a.gaV(a)
 p=a.gbY(a)
 o=new A.CN()
-A.c_(B.xQ,o.gKW())
+A.c_(B.xR,o.gKW())
 n=new A.nx(r,s,q,p,o)
 m.y.l(0,a.gbg(),n)
 o=a.gaX(a)
@@ -34780,7 +34780,7 @@ return q}}
 A.pf.prototype={
 qW(a){var s=this.ch
 s===$&&A.f()
-s.e=B.xP
+s.e=B.xQ
 s.c5(0)
 s=this.cx
 s===$&&A.f()
@@ -37005,7 +37005,7 @@ aF(){var s,r,q=this
 q.bc()
 q.fx=q.fr=!1
 q.cy=$.iQ.p4$.b.a!==0
-s=A.dh(null,B.xN,B.ef,null,q)
+s=A.dh(null,B.xO,B.ef,null,q)
 s.aZ()
 r=s.aI$
 r.b=!0
@@ -45887,7 +45887,7 @@ a.b=this.b},
 $S:267}
 A.Ne.prototype={
 $0(){var s=t.S,r=A.cI(s)
-return new A.eJ(B.xR,null,B.b9,A.x(s,t.C),r,this.a,null,A.x(s,t.l))},
+return new A.eJ(B.xS,null,B.b9,A.x(s,t.C),r,this.a,null,A.x(s,t.l))},
 $S:268}
 A.Nf.prototype={
 $1(a){a.k3=a.k2=null
@@ -51447,20 +51447,20 @@ B.v=new A.aW(0)
 B.b7=new A.aW(1e5)
 B.ed=new A.aW(1e6)
 B.xM=new A.aW(1e7)
-B.xN=new A.aW(15e4)
+B.xN=new A.aW(12e5)
+B.xO=new A.aW(15e4)
 B.kv=new A.aW(15e5)
-B.xO=new A.aW(16667)
+B.xP=new A.aW(16667)
 B.aj=new A.aW(2e5)
 B.ee=new A.aW(2e6)
-B.xP=new A.aW(225e3)
+B.xQ=new A.aW(225e3)
 B.cq=new A.aW(3e5)
 B.kw=new A.aW(375e3)
-B.xQ=new A.aW(4e4)
+B.xR=new A.aW(4e4)
 B.kx=new A.aW(5e4)
-B.xR=new A.aW(5e5)
-B.xS=new A.aW(5e6)
+B.xS=new A.aW(5e5)
+B.xT=new A.aW(5e6)
 B.ef=new A.aW(75e3)
-B.xT=new A.aW(9e5)
 B.xU=new A.aW(-38e3)
 B.xV=new A.dj(0,0,0,0)
 B.ac=new A.aK(0,0,0,0)
