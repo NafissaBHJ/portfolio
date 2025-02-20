@@ -1,0 +1,21 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["M5WY58CU64.com.mysogelife.sg"],
+        "components": [
+          {
+            "/": "*"
+          }
+          
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["M5WY58CU64.com.mysogelife.sg"]
+  },
+  "appclips": {
+    "apps": ["M5WY58CU64.com.mysogelife.sg"]
+  }
+}
